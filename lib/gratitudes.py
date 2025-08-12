@@ -1,11 +1,11 @@
 class Gratitudes:
     def __init__(self):
-        self.gratitudes = []
+        self.gratitudess = []
 
     def add(self, gratitude):
-        self.gratitudes.append(gratitude)
+        self.gratitudess.append(gratitude)
 
     def format(self):
         formatted = "Be grateful for: "
-        formatted += ", ".join(self.gratitudes)
+        formatted += ", ".join(self.gratitudess)
         return formatted
