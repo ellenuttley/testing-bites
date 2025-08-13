@@ -2,12 +2,12 @@ from lib.gratitudes import Gratitudes
 
 def test_gratitudes_init_empty_list():
     test_gratitudes = Gratitudes()
-    assert test_gratitudes.gratitudess == []
+    assert test_gratitudes.gratitudes == []
 
 def test_gratitudes_add():
     test_gratitudes = Gratitudes()
     test_gratitudes.add('good thing')
-    assert test_gratitudes.gratitudess == ['good thing']
+    assert test_gratitudes.gratitudes == ['good thing']
 
 def test_gratitudes_format():
     test_gratitudes = Gratitudes()
